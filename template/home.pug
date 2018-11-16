@@ -1,0 +1,225 @@
+
+extends layout
+
+block content
+	include lib/header
+	.pusher.content
+		.pusher-black
+		#ipage1.page.active(index='1')
+			.banner
+				.bannerSlide
+					.item.item2(style='background-image: url(/public/images/home/20161228203023677.jpg);')
+						img.pimg(src='/public/images/home/20161228203023677.jpg')
+						.binbox
+							p.t
+								span 蒙荣精细材料公司是一家集
+							p.by
+								span 科研 生产 销售和服务为一体的
+							p.c
+								span 高新技术生产企业
+							p.i
+								span Baotou City Mengrong fine materials limited liability company is a collection
+					.item.item3(style='background-image: url(/public/images/home/20161229145805971.jpg);')
+						img.pimg(src='/public/images/home/20161229145805971.jpg')
+						.binbox
+							p.t
+								span 高新技术生产企业
+							p.by
+								span P507萃取剂生产供应商
+							p.c
+								span 我们坚守客户是“上帝”，是我们的“衣食父母”，挑剔的客户是我们的良师益友。
+							p.i
+								span High-tech manufacturing enterprises
+					.item.item4(style='background-image: url(/public/images/home/20161227200612696.jpg);')
+						img.pimg(src='/public/images/home/20161227200612696.jpg')
+						.binbox
+							p.t
+								span 依靠科技创新占领市场
+							p.by
+								span 携手蒙荣 共创未来
+							p.c
+								span 企业和员工是风雨同舟的事业上的合作伙伴，是高度的利益共同体
+							p.i
+								span Relying on scientific and technological innovation to capture the market
+				.roll
+					#rollImg1.rollImg
+				.bannerBot
+
+
+
+
+		#ipage2.page.disappear(index='2')
+			.bg
+			.ibox.ipage2-box
+				p.iboxT 关于蒙荣
+				p.iboxBot
+				.iboxC.transYT
+					p(style='text-indent:2em;') 南宁火星人信息科技有限公司是一家集科研、生产、销售和服务为一体的高新技术生产企业。
+					p(style='text-indent:2em;')
+						| 成立于2013年3月，位于包头市土默特右旗新型工业园区山架格化工区，属民营股份制企业。公司占地面积100亩，现在职员工120人，其中科研人员36人，硕士毕业生2名，占总人数的30%；公司在发展过程中不断与国内多个科研院所交流合作，外聘技术支撑教授、工程师11人。
+					p(style='text-indent:2em;') 目前已形成年产3000吨萃取剂、5000吨盐酸羟胺、和5000吨多元化的选矿药剂生产线。以一流的产品质量和精湛的技术服务受到了广大用户的一致好评。
+				a.more.more2.transYT(href='about')
+					span.i2
+					span.i3
+					span.i1 了解更多
+
+		#ipage3.page.disappear(index='3')
+			.ipage3-box
+				p.iboxT 产品中心
+				p.iboxBot
+				.productIbox.picdemo
+					.item
+						a.itemCon(href='javascript:;')
+							.img
+								img(src='/public/images/home/20161227183800785.jpg')
+							p.name
+								span 萃取剂
+								i
+							.con
+								i.line
+								p.t 萃取剂
+								span.bot
+								p.c 产品分类描述产品分类描述产品分类描述产品分类描述产品分类描述
+					.item
+						a.itemCon(href='javascript:;')
+							.img
+								img(src='/public/images/home/20161227183815642.jpg')
+							p.name
+								span 医药中间体
+								i
+							.con
+								i.line
+								p.t 医药中间体
+								span.bot
+								p.c
+					.item
+						a.itemCon(href='javascript:;')
+							.img
+								img(src='/public/images/home/20161227183824771.jpg')
+							p.name
+								span 选矿药剂
+								i
+							.con
+								i.line
+								p.t 选矿药剂
+								span.bot
+								p.c
+
+
+		#ipage4.page.disappear(index='4')
+			.ipage4-box
+				p.iboxT 应用领域
+				p.iboxBot
+				.iCaseList.picdemo
+					.ixprob.transY.trtion.dly_2
+						.ixproList
+							.item
+								ul.ixpro.clearfix
+									li
+										a.pdajax.scapic(href='cases')
+											.con
+												.pic
+													img(src='/public/images/home/m_2016122913545110.jpg')
+												span.cover
+												.txts
+													span.line
+													p.txx.ti.tx2 包头钢铁集团有限公司
+									li
+										a.pdajax.scapic(href='cases')
+											.con
+												.pic
+													img(src='/public/images/home/m_20161229135527282.jpg')
+												span.cover
+												.txts
+													span.line
+													p.txx.ti.tx2 江西铜业集团公司
+									li
+										a.pdajax.scapic(href='cases')
+											.con
+												.pic
+													img(src='/public/images/home/m_20161229135914663.jpg')
+												span.cover
+												.txts
+													span.line
+													p.txx.ti.tx2 中国铝业股份有限公司
+									li
+										a.pdajax.scapic(href='cases')
+											.con
+												.pic
+													img(src='/public/images/home/m_20161229135838792.jpg')
+												span.cover
+												.txts
+													span.line
+													p.txx.ti.tx2 金川集团有限责任公司
+				a.more.more2.transYT(href='cases')
+					span.i2
+					span.i3
+					span.i1 查看更多
+		#ipage6.page.disappear(index='6')
+			.bg
+			.ipage6-box.ibox
+				p.iboxT 新闻中心
+				p.iboxBot
+				dl.iNewsList
+					dd.two.transYT
+						ul.list
+							li
+								a(href='news')
+									.time 2016年12月24日
+									.con(title='发展目标') 发展目标
+									span.bot
+							li
+								a(href='news')
+									.time 2016年12月24日
+									.con(title='公司简介') 公司简介
+									span.bot
+							li
+								a(href='news')
+									.time 2016年12月24日
+									.con(title='应用领域及市场分析') 应用领域及市场分析
+									span.bot
+					dd.one.transYT
+						.img(style='background-image: url(/public/images/home/20161224190147694.jpg);')
+							a(href='news/news_3.html')
+								img(src='/public/images/home/20161224190147694.jpg')
+
+
+		#ipage7.page.disappear(index='7')
+			.bg
+			.ipage7-box.ibox
+				p.iboxT 联系我们
+				p.iboxBot
+				.iboxC.transYT
+					| 欢迎访南宁火星人信息科技有限公司官方网站！如您有任何疑问或建议，请通过以下方式与我们联系或者拨打0472-7903677或者您可以在线提交咨询表单，我们将尽快与您取得联系。
+				ul.inner.clearfix.iContactList
+					li
+						img.ico(src='/public/images/home/i1.png')
+						p.name info@mars-it.net
+					li
+						img.ico(src='/public/images/home/i2.png')
+						p.name 广西南宁市科园大道东五路4号南宁软件园1楼
+					li
+						img.ico(src='/public/images/home/i3.png')
+						p.name 0776-3216270
+				a.messageBtn(href='contact')
+					| 留言给我们
+					span.ico
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

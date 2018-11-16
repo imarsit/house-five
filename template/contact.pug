@@ -1,0 +1,50 @@
+extends layout
+
+block content
+	include lib/header
+	.pusher.content
+		.pusher-black
+		.mtop
+	
+		.contactList
+			ul.inner.clearfix.iContactList
+				li
+					img.ico(src='/public/images/home/i1.png', tppabs='http://host14.lisiqi.com.cn/template/home/images/i1.png')
+					p.name
+						| info@mars-it.net
+				li
+					img.ico(src='/public/images/home/i2.png', tppabs='http://host14.lisiqi.com.cn/template/home/images/i2.png')
+					p.name
+						| 广西南宁市科园大道东五路4号南宁软件园1楼
+				li
+					img.ico(src='/public/images/home/i3.png', tppabs='http://host14.lisiqi.com.cn/template/home/images/i3.png')
+					p.name
+						| 0776-3216270
+		#messagePage.messagePage(style='background-image: url(/template/home/images/contactbg.jpg);')
+			span.black
+			.w960
+				p.iboxT
+					| 在线留言
+				.ts
+					| 欢迎访南宁火星人信息科技有限公司官方网站！如您有任何疑问或建议，请通过以下方式与我们联系或者拨打0472-7903677或者您可以在线提交咨询表单，我们将尽快与您取得联系。
+				dl.formbox
+					dd.clearfix
+						input#names.ctxt.ctxt1(type='text', placeholder='您的姓名')
+						input#tels.ctxt.ctxt2(type='text', placeholder='您的电话')
+					dd
+						textarea#contetns.ctxt.ctxt3(placeholder='想说的话')
+					dd.btnBox
+						a#submit.more.more2(href='javascript:;')
+							span.i2
+							span.i3
+							span.i1 确定提交
+block script
+	script.
+		$(function(){
+			$(".act").removeClass("act");
+			$(".contact").addClass("act");
+			$(".arrow").css("left","1684px");
+			$(".arrow").css("width","88px");
+			
+				
+		});
